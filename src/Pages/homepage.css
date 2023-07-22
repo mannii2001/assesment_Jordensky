@@ -1,0 +1,21 @@
+.buttonsDiv{
+    padding: 2rem;
+    display: flex;
+    height: 30%;
+    justify-content: center;
+}
+.chartButton{
+    transition: all 0.5s ease;
+    padding: 1rem;
+    background-color: yellow;
+    color: black;
+    border-radius: 18px;
+    cursor: pointer;
+    border: none;
+    font-weight: bolder;
+}
+
+.chartButton:hover{
+    background-color: black;
+    color: yellow;
+}
